@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C1565CD9-0BED-4C59-8102-6B8660B596BF" name="Employee">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 13:54:26 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="employeeID" id="6A252B85-D23A-7BAF-FC16-27EAC91641F0">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 13:54:35 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="photo" id="A183AA11-9CF5-85EB-F478-448731AE2069">
+<createdBy>User</createdBy>
+<createdTime>2024-12-26 20:53:54 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="34FCE673-1E57-0127-01F0-FC399F4AB2B9">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 13:54:48 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="66E069C9-EDF9-CA3E-3CD8-282AA7FD9392">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 13:55:02 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phoneNumber" id="20A3ACCE-8509-6797-A5B1-9971ECB5AAAE">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 13:55:15 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6F8FCD2D-EEC4-7D86-3C9C-B14B62CD6212" name="Employee PK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 13:54:45 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6A252B85-D23A-7BAF-FC16-27EAC91641F0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

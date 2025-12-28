@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8525B426-B531-BCED-B4ED-1C8BFA14E2B7" name="Train">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 14:52:32 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<engineerTo>
+<item key="26C460ED-ED96-D1FD-4625-78B139599D99" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="trainID" id="D9C27844-5A8F-1565-943B-6CB67F0D8253">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 14:52:39 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<engineerTo>
+<item key="26C460ED-ED96-D1FD-4625-78B139599D99" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="trainName" id="E762FC71-9DAD-1433-DB5E-3EFB666C3B43">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 14:52:52 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<engineerTo>
+<item key="26C460ED-ED96-D1FD-4625-78B139599D99" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Attribute_1" id="6172F1BF-8CD3-6808-8C5D-D066895FA55E">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 14:53:10 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<engineerTo>
+<item key="26C460ED-ED96-D1FD-4625-78B139599D99" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="routeID" id="9618744F-4E6B-CBC4-7982-D48431213F7C">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 16:21:37 UTC</createdTime>
+<generatorID>42112403-D7E2-F5D3-1D7D-1B3ACF66D612</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<engineerTo>
+<item key="26C460ED-ED96-D1FD-4625-78B139599D99" value="true"/>
+</engineerTo>
+<referedAttribute>DB8F7776-647F-1043-2961-406F0AC67F53</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="856F6D32-8916-1D30-48FA-0BA2496C8607" name="Train PK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 14:52:51 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<engineerTo>
+<item key="26C460ED-ED96-D1FD-4625-78B139599D99" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D9C27844-5A8F-1565-943B-6CB67F0D8253</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

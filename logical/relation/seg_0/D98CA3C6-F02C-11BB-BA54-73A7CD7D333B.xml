@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tixpay" directorySegmentName="seg_0" id="D98CA3C6-F02C-11BB-BA54-73A7CD7D333B">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 16:29:26 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<sourcePk>D355F1B7-53B4-E428-A603-20E4BB766364</sourcePk>
+<targetPk>68DD4105-854C-28D2-86A0-74D29821C4E3</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D35749CB-A846-9CCE-0FFF-CA012B80548A</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7A683342-99AC-08FB-D80E-EAA2C8B74C31</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

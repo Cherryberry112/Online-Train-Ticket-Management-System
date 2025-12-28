@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3EFD99C0-2A07-D473-9F83-A32C785739F1" name="PaymentMethod">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 16:07:45 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="methodID" id="1DD3B515-6783-7001-A533-8549E4FCE1EA">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 16:09:42 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="methodType" id="65874865-D0BB-3D50-AEE4-2E88D1689221">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 16:09:54 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="methodName" id="1208AB7D-F6B1-1906-1685-CF0392B0AAC9">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 16:13:46 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="number" id="C4F227F9-A762-F4B9-9695-C678B93ECF87">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 16:11:11 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="userID" id="3E0B19CD-16D2-F599-F3DF-82E1B9A83594">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 16:27:23 UTC</createdTime>
+<generatorID>E5BB3415-AE94-6E11-FA7B-E18A32872417</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<referedAttribute>50052DD9-4C93-57D4-3704-4C742B5F3DF6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8D2EC576-A235-D180-2E69-0CEDB782386A" name="PaymentMethod PK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 16:09:52 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1DD3B515-6783-7001-A533-8549E4FCE1EA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

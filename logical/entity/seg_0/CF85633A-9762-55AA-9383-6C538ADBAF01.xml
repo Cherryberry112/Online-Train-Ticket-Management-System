@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CF85633A-9762-55AA-9383-6C538ADBAF01" name="Trip">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 14:42:21 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<engineerTo>
+<item key="26C460ED-ED96-D1FD-4625-78B139599D99" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tripID" id="7F4E8855-56A1-4407-53A4-ADE608043DF7">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 14:42:45 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<engineerTo>
+<item key="26C460ED-ED96-D1FD-4625-78B139599D99" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="2BCD6269-3F85-E17C-064F-310D5EAC92CC">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 14:43:00 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<engineerTo>
+<item key="26C460ED-ED96-D1FD-4625-78B139599D99" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="departureDateTime" id="6D9FD680-DDC8-E958-87F0-703AB175A1F7">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 14:43:15 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<engineerTo>
+<item key="26C460ED-ED96-D1FD-4625-78B139599D99" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="arriavalDateTime" id="81234D0F-1BD1-25A4-DBE5-6EF4F7F068F3">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 14:49:21 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<engineerTo>
+<item key="26C460ED-ED96-D1FD-4625-78B139599D99" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="availableSeats" id="D303A3E2-6322-CC60-AC7C-DCDD3A0C4433">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 14:49:56 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<engineerTo>
+<item key="26C460ED-ED96-D1FD-4625-78B139599D99" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="trainID" id="4843E485-6E22-B79F-7ACD-6A864B456A63">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:02 UTC</createdTime>
+<generatorID>B50ABF8A-530B-094E-9C6B-EE4D6187FC0B</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<engineerTo>
+<item key="26C460ED-ED96-D1FD-4625-78B139599D99" value="true"/>
+</engineerTo>
+<referedAttribute>D9C27844-5A8F-1565-943B-6CB67F0D8253</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4A0AE993-841B-B95E-24CE-280CC003EE27" name="Trip PK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 14:42:58 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<engineerTo>
+<item key="26C460ED-ED96-D1FD-4625-78B139599D99" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7F4E8855-56A1-4407-53A4-ADE608043DF7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

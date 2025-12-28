@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="user_paymethod" directorySegmentName="seg_0" id="E5BB3415-AE94-6E11-FA7B-E18A32872417">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 16:27:23 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<sourcePk>109F9F3C-92B7-D06F-E580-170305D244CE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4842F38C-AFF0-C06C-3DE2-FF4883E40A26</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3EFD99C0-2A07-D473-9F83-A32C785739F1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

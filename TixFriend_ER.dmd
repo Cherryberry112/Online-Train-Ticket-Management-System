@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="TixFriend_ER" id="B099292E-291D-0876-C9AC-846168F8BF91" version="3.5">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 10:32:03 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B099292E-291D-0876-C9AC-846168F8BF91</designId>
+</OSDM_Design>

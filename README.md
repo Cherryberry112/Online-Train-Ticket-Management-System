@@ -35,7 +35,6 @@ Click the video below to view the full walkthrough of the TixFriend BD applicati
 * **`Project final report.pdf`**: 100+ page comprehensive documentation covering SRS, analysis, and design.
 * **`SQL_Tixfriend_BD.ddl`**: The complete SQL script used to generate the database schema (Tables, Constraints, Indexes).
 * **`TixFriend_ER.dmd`**: Oracle SQL Developer Data Modeler file for the database architecture.
-* **`TIXFRIEND BD.mp4`**: Screen recording of the functional Oracle APEX application.
 
 ---
 

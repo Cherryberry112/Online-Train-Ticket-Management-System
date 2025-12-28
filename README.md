@@ -3,7 +3,7 @@
 **TixFriend BD** is a comprehensive Information System designed to streamline the railway ticketing process in Bangladesh. This project covers the entire software development lifecycle, from requirement analysis and system design (DFDs, ERDs) to a full database implementation in **Oracle APEX**.
 
 > [!IMPORTANT]
-> **⚠️ Oracle APEX Availability Note:** > This project was fully developed and hosted on the Oracle APEX Cloud platform. However, due to **Oracle’s Free Tier inactivity policy**, the live workspace has been purged and the application link is currently offline. A **demonstration video** is included in this repository to showcase the functional application, UI, and user flow as it appeared during the live phase.
+> **⚠️ Oracle APEX Availability Note:**  This project was fully developed and hosted on the Oracle APEX Cloud platform. However, due to **Oracle’s Free Tier inactivity policy**, the live workspace has been purged and the application link is currently offline. A **demonstration video** is included in this repository to showcase the functional application, UI, and user flow as it appeared during the live phase.
 
 ### 📺 Project Demonstration
 

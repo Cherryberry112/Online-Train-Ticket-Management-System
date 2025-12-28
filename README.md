@@ -8,7 +8,7 @@
 ### 📺 Project Demonstration
 
 Click the video below to view the full walkthrough of the TixFriend BD application, including user registration, ticket booking, and admin management.
-*(Note: Link your video file here after uploading to GitHub)*
+*[(Screen recording of the functional Oracle APEX application.)](https://drive.google.com/file/d/1LGbFaA7-XC2XANeot60xZscCAn_tGhBa/view?usp=sharing)*
 
 ###  Key Features
 

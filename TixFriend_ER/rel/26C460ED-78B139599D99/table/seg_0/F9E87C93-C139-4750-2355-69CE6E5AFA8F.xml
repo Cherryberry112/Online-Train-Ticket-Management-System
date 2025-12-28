@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9E87C93-C139-4750-2355-69CE6E5AFA8F" name="Feedback">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>B70FC412-7D32-2B7B-7C24-DA329E669A5E</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fbID" id="6A3DE528-ED88-0EC2-0497-0102BC6C0F2D">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>F1C7BDC6-029D-11AC-A2E2-A8C753FE9E61</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="F60F5EB3-9DAF-6305-1399-DCC5E47482BC">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>FD20F995-E65F-5046-793A-188F2B0A7433</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comment" id="C68E1E8A-2B65-F6F9-43DE-4DD8595F901A">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>91B119E9-3CC9-2FCE-035F-ED9390D7FAF8</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TravelHistory_thID" id="7D5D97E1-9075-15F1-FA35-101859486D2A">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>8AF0D49E-705B-BACF-13D6-E887C853A5E6</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43B50515-231E-639B-C366-F9A1AE52F6C9" referredColumn="5B12067F-4306-DFBC-E24B-7C0E2D01857D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E3CF6F6-A37F-5B09-B8E2-E4A74775A227" name="Feedback_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>62F983D3-DA19-156A-6D48-2DB241AF2771</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A3DE528-ED88-0EC2-0497-0102BC6C0F2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5ABFD0A6-1482-AE73-9141-F5FA82100D11" name="Feedback__IDX">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>DE92D64E-4F17-4753-1DE3-F33A34E4BC62</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7D5D97E1-9075-15F1-FA35-101859486D2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="326D8A19-01AC-0A65-9434-A0AFA88C2FF9" name="Feedback_TravelHistory_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>DE92D64E-4F17-4753-1DE3-F33A34E4BC62</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D5D97E1-9075-15F1-FA35-101859486D2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

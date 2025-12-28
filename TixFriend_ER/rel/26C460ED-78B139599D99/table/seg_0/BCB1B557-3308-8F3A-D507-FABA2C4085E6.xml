@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BCB1B557-3308-8F3A-D507-FABA2C4085E6" name="Regional_Manager">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>C83B283A-02A4-9314-C732-E17C3E34CB0E</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rmID" id="5C424636-056B-67D6-24D7-E0DD37BE40C0">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>FA9D7E86-A470-C3C3-28E7-6E6B1A94BF21</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="photo" id="E3A9A379-D93A-8C27-52E9-7E4127861BA0">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>EDCD10B3-54D0-56F0-EBB5-F1401DFBC44F</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="AFCBAAC1-7928-DBCD-527E-D6C3CB7FF08B">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>201B0BBD-2ADC-DEC5-7523-95327F26FE58</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="74D16BC1-6963-780E-164B-05D74FD1A083">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>AFB97369-B81B-00F6-0EB4-B5815185D345</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phoneNumber" id="99657A18-E827-8E80-2713-403FA43514C0">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>E9D90D0B-E903-229C-7D2D-14080C2509AC</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="80363F5C-CFC6-5537-8FEE-E5D3546FCED7">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>8CDB3E48-2CE1-9A45-7651-1B76EA26F781</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A535B5D-23C6-A545-5337-7DF04978B09D" name="Regional_Manager_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>464B9A47-5796-2975-953F-350AF3CB7AB6</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C424636-056B-67D6-24D7-E0DD37BE40C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

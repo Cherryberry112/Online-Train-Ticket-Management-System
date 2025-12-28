@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="employee_helpline" directorySegmentName="seg_0" id="EB3E29C3-9198-CF16-BA28-3B15297EE5A7">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 16:25:11 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<sourcePk>6F8FCD2D-EEC4-7D86-3C9C-B14B62CD6212</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C1565CD9-0BED-4C59-8102-6B8660B596BF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DDBA25D7-CE95-B9C6-2373-C653FAA2B65C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

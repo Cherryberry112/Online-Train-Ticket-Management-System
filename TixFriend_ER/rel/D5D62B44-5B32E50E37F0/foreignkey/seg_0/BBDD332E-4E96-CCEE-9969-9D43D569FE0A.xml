@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BBDD332E-4E96-CCEE-9969-9D43D569FE0A" containerWithKeyObject="E4070C8A-CC43-9DD7-9671-348B4B7026EA" localFKIndex="C6E36353-525D-A031-9CC2-290F0CFC1B95" name="train_trip_Train_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-26 21:00:16 UTC</createdTime>
+<generatorID>029A8F75-EB1E-5637-4624-B475C934E7D2</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<referredTableLongName>Train</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>50779413-9B06-82F2-BAA9-5052B7DC4353</referredTableID>
+<keyObject>5A9DA633-5037-78B4-5693-7F4BBC90EEAE</keyObject>
+<referredKeyID>5A9DA633-5037-78B4-5693-7F4BBC90EEAE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>trainID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

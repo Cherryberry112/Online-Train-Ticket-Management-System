@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="buyTix" directorySegmentName="seg_0" id="DDFCCABD-57AA-AEB6-B9A0-D35681E27C1B">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 16:14:56 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<sourcePk>109F9F3C-92B7-D06F-E580-170305D244CE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4842F38C-AFF0-C06C-3DE2-FF4883E40A26</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D35749CB-A846-9CCE-0FFF-CA012B80548A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="61B4507E-89E8-1497-A701-A2DF3F835CD8" name="SavedTrip">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>28CB54AB-51BB-9B3D-21F1-E02EE25337C3</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="stID" id="8573105A-B46F-5E08-85FE-F1EB5E56D490">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>93D389B8-EF12-078B-2A1E-583E9512CBF2</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_userID" id="54814C2E-DE22-B6BC-11EB-AAC3CE703F28">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>AF7EE6AF-D97E-D34B-6948-57030F052DC0</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5865C95-845B-D04C-9F8C-4758D83E26A6" referredColumn="46F34843-EF13-0F28-CD13-8170633904E3"/>
+</associations>
+</Column>
+<Column name="Trip_tripID" id="22DFD35D-9146-1DFC-1E3D-B95B0AF1DB6C">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>F4B3FD6A-F8C8-F5C1-1F96-0DDDBEE978C1</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3F946B4-B0B8-5F29-9613-50A2AFECED91" referredColumn="5780A498-BC24-D29F-E72F-DD94B9E28E8A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E467B1BD-363C-5744-5F2C-287D4569322C" name="SavedTrip_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>5B8AE9C1-A1FA-4524-E7D0-EDFD2B59F677</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8573105A-B46F-5E08-85FE-F1EB5E56D490"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A52FE29-2748-4ABA-062A-3D63A03C1418" name="SavedTrip_Trip_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>B6C8C85E-A887-3763-167C-1BCF184B9DF7</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22DFD35D-9146-1DFC-1E3D-B95B0AF1DB6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E95AF921-D5E2-FF4A-CDFF-6B82AB674E1D" name="SavedTrip_User_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>FE8F1692-CDD4-C56A-463A-4B1EEC407BD6</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54814C2E-DE22-B6BC-11EB-AAC3CE703F28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

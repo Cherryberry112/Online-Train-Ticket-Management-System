@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="91493656-0A10-73B3-85DA-1EC08ED79F11" name="TravelHistory ">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 15:53:29 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<engineerTo>
+<item key="26C460ED-ED96-D1FD-4625-78B139599D99" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="thID" id="0006D834-006F-09E6-A07C-6166C4D56619">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 15:54:01 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<engineerTo>
+<item key="26C460ED-ED96-D1FD-4625-78B139599D99" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TicketID" id="40D00E20-4D88-31B1-D12B-6198B889E7B3">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 16:54:05 UTC</createdTime>
+<generatorID>D246A266-0B13-180E-A84E-F266D6B03853</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<engineerTo>
+<item key="26C460ED-ED96-D1FD-4625-78B139599D99" value="true"/>
+</engineerTo>
+<referedAttribute>618E3119-9771-A0D7-2B5F-EE1EE7D6F1FA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status " id="96C7D05F-882D-D4B2-486A-45E74FEBFFDF">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:03:37 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<engineerTo>
+<item key="26C460ED-ED96-D1FD-4625-78B139599D99" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B31E2864-41D9-EA92-57BA-07AA98E6B4BB" name="TravelHistory PK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 15:54:22 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<engineerTo>
+<item key="26C460ED-ED96-D1FD-4625-78B139599D99" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0006D834-006F-09E6-A07C-6166C4D56619</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

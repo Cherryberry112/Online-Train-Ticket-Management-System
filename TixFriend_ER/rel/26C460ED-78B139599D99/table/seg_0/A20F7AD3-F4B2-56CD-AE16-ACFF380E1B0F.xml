@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A20F7AD3-F4B2-56CD-AE16-ACFF380E1B0F" name="Trip">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>CF85633A-9762-55AA-9383-6C538ADBAF01</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tripID" id="5780A498-BC24-D29F-E72F-DD94B9E28E8A">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>7F4E8855-56A1-4407-53A4-ADE608043DF7</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="4FD164D7-7AD3-93E5-59BD-8F80996A22A2">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>2BCD6269-3F85-E17C-064F-310D5EAC92CC</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="departureDateTime" id="AF808CD0-F927-A7FE-22B5-5F7B62EA0840">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>6D9FD680-DDC8-E958-87F0-703AB175A1F7</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="arriavalDateTime" id="ADD06300-6F36-B395-D254-CE4123A865D3">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>81234D0F-1BD1-25A4-DBE5-6EF4F7F068F3</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="availableSeats" id="847A32B6-C4B7-FFD4-8E92-48DD6B36CEDE">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>D303A3E2-6322-CC60-AC7C-DCDD3A0C4433</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Train_trainID" id="EB5CC566-0FB8-02AC-5841-09D1282F1717">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>4843E485-6E22-B79F-7ACD-6A864B456A63</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F36E2FD0-213A-425D-2AE0-6099545AD79D" referredColumn="9D0BFEC6-58C7-AE8C-BECA-6EAF9E96C0AA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7794C133-2687-EE09-5CD1-F331C65C75BC" name="Trip_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>4A0AE993-841B-B95E-24CE-280CC003EE27</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5780A498-BC24-D29F-E72F-DD94B9E28E8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CF56D72-F67F-DA05-AD50-56825A6CB14F" name="Trip_Train_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>B50ABF8A-530B-094E-9C6B-EE4D6187FC0B</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB5CC566-0FB8-02AC-5841-09D1282F1717"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

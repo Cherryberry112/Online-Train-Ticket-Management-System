@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="1CF8AC42-EE8D-B1B1-4FB6-49ACD5DD0E17" name="tixFriend_RM" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

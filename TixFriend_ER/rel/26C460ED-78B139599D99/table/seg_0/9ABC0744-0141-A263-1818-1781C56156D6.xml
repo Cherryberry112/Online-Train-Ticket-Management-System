@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9ABC0744-0141-A263-1818-1781C56156D6" name="Ticket">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>D35749CB-A846-9CCE-0FFF-CA012B80548A</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TicketID" id="3CB9CA03-355F-0363-B615-92380CEC1655">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>618E3119-9771-A0D7-2B5F-EE1EE7D6F1FA</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="seatNumber" id="E1254144-740B-C60A-C2B3-9AEF95A20400">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>3FA7334B-6E1A-99CC-5106-9E0E89260ED3</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="0C48A187-766C-48BD-B1C2-8EA906BF065F">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>E51FF643-A5F2-BB9B-2355-C16B3E7EA944</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="purchaseDate" id="B55A1E35-B932-55FE-60F3-2403AA21CB76">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>04FAAC85-6D6D-C60F-E05B-D27C40B09A26</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="4B189FA3-3D3C-6C6F-C392-F54FD6470879">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>074D018A-5190-F1D6-9A19-6593B659D1BE</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_userID" id="2F2DD002-ED12-C041-6E83-6E51029B8076">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>E3F995DF-B8B2-03C5-3DCA-9961A6DB8C01</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6CC9D21E-CB5D-E4EB-5DC1-91CB6EB31892" referredColumn="46F34843-EF13-0F28-CD13-8170633904E3"/>
+</associations>
+</Column>
+<Column name="Trip_tripID" id="A459A5BD-4278-3322-6DFE-BF489973BE1B">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>F1E926EF-08BE-3E6F-6FD9-ACDB27BE1DB5</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD55E2DE-6E00-A07B-5618-133AA7FBF1A8" referredColumn="5780A498-BC24-D29F-E72F-DD94B9E28E8A"/>
+</associations>
+</Column>
+<Column name="Payment_paymentID" id="570D92FD-6FF7-C0E6-B92D-6C5A34CA2E99">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>46D2CEEA-0E5F-4D29-256D-C3BA002782D0</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C795D90-EED2-5121-FB48-D75E2BE5EC20" referredColumn="C80AD7A2-A736-6C28-69C3-C1FF1DFE037B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9032A901-D2CF-05ED-68A3-7E36CAE7A4B7" name="Ticket_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>D355F1B7-53B4-E428-A603-20E4BB766364</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CB9CA03-355F-0363-B615-92380CEC1655"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3922674-36FA-17F2-C3EE-5A05DE0E32FB" name="Ticket__IDX">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D98CA3C6-F02C-11BB-BA54-73A7CD7D333B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="570D92FD-6FF7-C0E6-B92D-6C5A34CA2E99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97225C5E-BE7F-C0DB-2A51-20948C901B89" name="Ticket_User_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>DDFCCABD-57AA-AEB6-B9A0-D35681E27C1B</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F2DD002-ED12-C041-6E83-6E51029B8076"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0090C7D8-69EE-A667-0736-4899EACE0A58" name="Ticket_Payment_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>D98CA3C6-F02C-11BB-BA54-73A7CD7D333B</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="570D92FD-6FF7-C0E6-B92D-6C5A34CA2E99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9931B227-510E-093C-67C9-BDA209C6D7CC" name="Ticket_Trip_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>47AFD006-E4BB-77D6-67E5-D4635D26AF3C</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A459A5BD-4278-3322-6DFE-BF489973BE1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

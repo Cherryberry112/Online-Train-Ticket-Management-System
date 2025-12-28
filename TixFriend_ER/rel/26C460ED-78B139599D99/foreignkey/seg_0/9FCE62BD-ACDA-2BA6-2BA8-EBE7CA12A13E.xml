@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9FCE62BD-ACDA-2BA6-2BA8-EBE7CA12A13E" containerWithKeyObject="ADC474A8-A050-4172-4D16-BA0923D468DD" localFKIndex="F462A72F-EA02-83FB-30D2-9F5E0B9F17A0" name="Payment_PaymentMethod_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>A49ABD88-338B-6801-052A-1912B7CBDB0D</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<referredTableLongName>PaymentMethod</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E353B3DF-9693-DD20-EB8F-BC884848FDEB</referredTableID>
+<keyObject>E9AA3FBC-4261-39D3-A142-77CB6F863B6E</keyObject>
+<referredKeyID>E9AA3FBC-4261-39D3-A142-77CB6F863B6E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>methodID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

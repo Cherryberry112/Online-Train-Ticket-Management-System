@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B70FC412-7D32-2B7B-7C24-DA329E669A5E" name="Feedback">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 15:03:17 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<engineerTo>
+<item key="26C460ED-ED96-D1FD-4625-78B139599D99" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fbID" id="F1C7BDC6-029D-11AC-A2E2-A8C753FE9E61">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 15:32:35 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<engineerTo>
+<item key="26C460ED-ED96-D1FD-4625-78B139599D99" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rating" id="FD20F995-E65F-5046-793A-188F2B0A7433">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 15:34:54 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<engineerTo>
+<item key="26C460ED-ED96-D1FD-4625-78B139599D99" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comment" id="91B119E9-3CC9-2FCE-035F-ED9390D7FAF8">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 15:35:22 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<engineerTo>
+<item key="26C460ED-ED96-D1FD-4625-78B139599D99" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="thID" id="8AF0D49E-705B-BACF-13D6-E887C853A5E6">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 15:55:43 UTC</createdTime>
+<generatorID>DE92D64E-4F17-4753-1DE3-F33A34E4BC62</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<engineerTo>
+<item key="26C460ED-ED96-D1FD-4625-78B139599D99" value="true"/>
+</engineerTo>
+<referedAttribute>0006D834-006F-09E6-A07C-6166C4D56619</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="62F983D3-DA19-156A-6D48-2DB241AF2771" name="Feedback PK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 15:34:52 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<engineerTo>
+<item key="26C460ED-ED96-D1FD-4625-78B139599D99" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F1C7BDC6-029D-11AC-A2E2-A8C753FE9E61</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

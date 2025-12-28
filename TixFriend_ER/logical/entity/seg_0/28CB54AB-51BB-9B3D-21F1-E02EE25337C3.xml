@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28CB54AB-51BB-9B3D-21F1-E02EE25337C3" name="SavedTrip">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 15:01:47 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="stID" id="93D389B8-EF12-078B-2A1E-583E9512CBF2">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 15:02:21 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="userID" id="AF7EE6AF-D97E-D34B-6948-57030F052DC0">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 18:18:59 UTC</createdTime>
+<generatorID>FE8F1692-CDD4-C56A-463A-4B1EEC407BD6</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<referedAttribute>50052DD9-4C93-57D4-3704-4C742B5F3DF6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tripID" id="F4B3FD6A-F8C8-F5C1-1F96-0DDDBEE978C1">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 18:20:53 UTC</createdTime>
+<generatorID>B6C8C85E-A887-3763-167C-1BCF184B9DF7</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<referedAttribute>7F4E8855-56A1-4407-53A4-ADE608043DF7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5B8AE9C1-A1FA-4524-E7D0-EDFD2B59F677" name="savedTrip PK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 15:02:50 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>93D389B8-EF12-078B-2A1E-583E9512CBF2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

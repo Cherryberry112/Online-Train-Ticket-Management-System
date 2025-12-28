@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0901EB19-8724-019E-A091-DB03B8E14862" name="HelpLine">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>DDBA25D7-CE95-B9C6-2373-C653FAA2B65C</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="queryID" id="EF5DC99F-45A2-35DB-2F64-BBCCBB71700A">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>7538041B-AF23-9641-0206-F41BC1480503</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="querytype" id="506FE30E-F99A-74C9-9CF2-7AB33716BBF9">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>4E2730AE-15FD-45C2-DCF7-7DF094ECD045</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="query" id="062ADF77-5461-D293-E4AD-F805F5CC5307">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>194E6894-4703-5045-F54A-12B80CE95B2F</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="response" id="542D86A7-08B6-4179-8E5B-7389A2D778C6">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>E7711984-2487-1068-54F3-9EC39F1D26AC</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="B6BFFFDF-6526-A1A3-244A-BFB6C43586DD">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>36A93ED7-D06A-B3A5-607F-5F6151A5E57F</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_userID" id="DF8F339B-687F-A78F-2D01-7B820E898BE7">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>DB415B25-A5AA-9E10-F2F8-85F900369963</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C04964D1-3F19-E4FC-2775-EE597558F2D4" referredColumn="46F34843-EF13-0F28-CD13-8170633904E3"/>
+</associations>
+</Column>
+<Column name="Employee_employeeID" id="2D76616C-EF40-0E6C-E3FE-D4A01B71588D">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>6CCA961D-5225-EFE3-8100-7F67AFA467C4</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2F9886E-72C3-6C64-B262-1CDC9048D1C7" referredColumn="DB49D15D-2CEF-E76E-6A03-510539C7694D"/>
+</associations>
+</Column>
+<Column name="Regional_Manager_rmID" id="9929A8A4-7114-FBDE-A181-4EDA853FEE54">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>92479FB5-D4C1-1BF4-390C-7C6731FA72D0</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="925EF02B-5C85-04B0-8AD9-3469AF99EA05" referredColumn="5C424636-056B-67D6-24D7-E0DD37BE40C0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86E74862-03D4-163B-26A6-C1945DD617EA" name="HelpLine_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>4D111E56-B52A-5E82-5953-DA30964BEFA4</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF5DC99F-45A2-35DB-2F64-BBCCBB71700A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="832180D1-9FBE-2B95-39B6-ECC633CDC023" name="HelpLine_Employee_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>EB3E29C3-9198-CF16-BA28-3B15297EE5A7</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D76616C-EF40-0E6C-E3FE-D4A01B71588D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9335D1B3-74C0-624C-A879-6046FD7C0F85" name="HelpLine_Regional_Manager_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>8EA83163-74EA-A09D-20BD-EDB2490D5F11</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9929A8A4-7114-FBDE-A181-4EDA853FEE54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46C71EE8-5C84-16E1-FBD4-6A3E4DA91154" name="HelpLine_User_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>386922E4-9B13-A15A-A896-A85A5382AD67</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF8F339B-687F-A78F-2D01-7B820E898BE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

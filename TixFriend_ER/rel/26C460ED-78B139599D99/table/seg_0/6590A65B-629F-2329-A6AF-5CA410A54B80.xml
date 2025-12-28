@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6590A65B-629F-2329-A6AF-5CA410A54B80" name="TravelHistory">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>91493656-0A10-73B3-85DA-1EC08ED79F11</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="thID" id="5B12067F-4306-DFBC-E24B-7C0E2D01857D">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>0006D834-006F-09E6-A07C-6166C4D56619</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ticket_TicketID" id="624595F6-9CD4-EBE1-6BE7-04B336A0D167">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>40D00E20-4D88-31B1-D12B-6198B889E7B3</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E01C2319-5A22-D237-67E2-01F181C1C6CA" referredColumn="3CB9CA03-355F-0363-B615-92380CEC1655"/>
+</associations>
+</Column>
+<Column name="status" id="72930517-7652-198C-D050-EFB1B677810A">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>96C7D05F-882D-D4B2-486A-45E74FEBFFDF</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F358625-4D6D-5F57-2B54-0FDC9C7DE6E1" name="TravelHistory_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>B31E2864-41D9-EA92-57BA-07AA98E6B4BB</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B12067F-4306-DFBC-E24B-7C0E2D01857D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE8D2D23-86A0-818B-05E0-985A165900FC" name="TravelHistory__IDX">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D246A266-0B13-180E-A84E-F266D6B03853</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="624595F6-9CD4-EBE1-6BE7-04B336A0D167"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36DEB79F-1E7E-7673-45DA-0D9F3816F255" name="TravelHistory_Ticket_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-28 17:06:57 UTC</createdTime>
+<generatorID>D246A266-0B13-180E-A84E-F266D6B03853</generatorID>
+<ownerDesignName>TixFriend_ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="624595F6-9CD4-EBE1-6BE7-04B336A0D167"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
